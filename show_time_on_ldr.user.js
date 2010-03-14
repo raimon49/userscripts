@@ -4,16 +4,15 @@
 // @description Tキーで中の人に現在時刻と経過時間を表示してもらうスクリプト
 // @include     http://reader.livedoor.com/reader/*
 // @author      raimon
-// @version     0.1
+// @version     1.0.0
 // ==/UserScript==
 (function (){
-    var w = typeof unsafeWindow != 'undefined' ? unsafeWindow : window;
+    var w = typeof unsafeWindow !== 'undefined' ? unsafeWindow : window;
+    const SHOW_KEY = 't';
     
-    var SHOW_KEY = 't';
-    
-    function Clock() {};
-    
-    Clock.prototype.start_time = new Date().getTime();
+    function Clock() {
+        this.start_time = new Date().getTime();
+    };
     
     Clock.prototype.showTime = function() {
         var now = new Date();
@@ -53,23 +52,16 @@
         return String("00" + t).substr(-2);
     }
     
-    var c = null;
-    
-    w.addEventListener(
-        "load", 
-        function() {
-            with(w) {
-                c = new Clock();
-                
-                Keybind.add(
-                    SHOW_KEY, 
-                    function() {
-                        var m = "現在時刻: " + c.showTime() + "  経過時間: " + c.showPassage();
-                        message(m);
-                    }
-                );
-            }
-        }, 
-        false
-    );
+    w.register_hook('AFTER_INIT', function() {
+        var c = new Clock();
+        w.Keybind.add(SHOW_KEY, function() {
+            var m = [
+                "現在時刻: ", 
+                c.showTime(), 
+                "  経過時間: ", 
+                c.showPassage()
+            ].join("");
+            w.message(m);
+        });
+    });
 })();
