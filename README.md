@@ -19,7 +19,7 @@ ldc\_rancor\_cool.user.js
 
 > livedoor クリップで非公開じゃなくても恥ずかしくなくするスクリプト
 
-[スクリーンショット](http://sangoukan.xrea.jp/cgi-bin/tDiary/images/20100303_1.jpg)
+![スクリーンショット](http://sangoukan.xrea.jp/cgi-bin/tDiary/images/20100303_1.jpg)
 
 ネタスクリプトでしたが[livedoor クリップのサービス終了](http://blog.livedoor.jp/staff_clip/archives/52265344.html)に伴い入れても何も起きなくなります。
 
@@ -39,7 +39,7 @@ show\_time\_on\_ldr.user.js
 
 > Tキーで中の人に現在時刻と経過時間を表示してもらうスクリプト
 
-[スクリーンショット](http://sangoukan.xrea.jp/cgi-bin/tDiary/images/20080913_1.jpg)
+![スクリーンショット](http://sangoukan.xrea.jp/cgi-bin/tDiary/images/20080913_1.jpg)
 
 show\_yahoo\_news\_detail\_p.user.js
 ------------------------------------
