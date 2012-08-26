@@ -8,9 +8,9 @@
 // ==/UserScript==
 (function (){
     var w = typeof unsafeWindow !== 'undefined' ? unsafeWindow : window;
-    
+
     var KEY = 'S';
-    
+
     var State = w.State, Ordered = w.Ordered, Control = w.Control;
     var touch = w.touch;
     // via http://reader.livedoor.com/js/reader_main.0.3.4.js
@@ -23,7 +23,7 @@
         var list = Ordered.list;
         if (!list) return;
 
-        var offset = list.indexOfStr(sid); 
+        var offset = list.indexOfStr(sid);
         var feed = list[offset+2];
         return feed;
     };
