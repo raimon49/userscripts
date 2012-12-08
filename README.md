@@ -10,7 +10,7 @@ feedburner\_tracking\_cutter.user.js
 
 > FeedBurner経由でつく?utm\_sourceから始まるトラッキングパラメータをカットして再読み込みするユーザスクリプト
 
-ほぼ上位互換となる[UrlCleaner](http://userscripts.org/scripts/show/70851)というスクリプトが出来たため、よほどマシンパワーの不足しているマシンでない限りは、こちらの利用がお奨めです。
+ほぼ上位互換となる[UrlCleaner](http://userscripts.org/scripts/show/70851)や[ParamCleaner](http://userscripts.org/scripts/show/100611)というスクリプトが存在するので、よほどマシンパワーの不足しているマシンでない限りは、これらの利用がお奨めです。
 
 ldc\_rancor\_cool.user.js
 -------------------------
