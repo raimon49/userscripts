@@ -47,3 +47,10 @@ show\_yahoo\_news\_detail\_p.user.js
 * [show Yahoo! News detail page](https://github.com/raimon49/userscripts/raw/master/show_yahoo_news_detail_p.user.js)
 
 > ヤフーニュースのヘッドラインを表示した時に自動で記事全文へ移動するスクリプト
+
+minimum\_scroll.user.js
+-----------------------
+
+* [Minimum Scroll](https://github.com/raimon49/userscripts/raw/master/minimum_scroll.user.js)
+
+> Space, Shitf+Spaceのスクロール量を短くします
