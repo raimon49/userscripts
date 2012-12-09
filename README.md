@@ -19,6 +19,13 @@ ldc\_rancor\_cool.user.js
 
 > livedoor クリップで非公開じゃなくても恥ずかしくなくするスクリプト
 
+minimum\_scroll.user.js
+-----------------------
+
+* [Minimum Scroll](https://github.com/raimon49/userscripts/raw/master/minimum_scroll.user.js)
+
+> Space, Shitf+Spaceのスクロール量を短くします
+
 ![スクリーンショット](http://sangoukan.xrea.jp/cgi-bin/tDiary/images/20100303_1.jpg)
 
 ネタスクリプトでしたが[livedoor クリップのサービス終了](http://blog.livedoor.jp/staff_clip/archives/52265344.html)に伴い入れても何も起きなくなります。
@@ -47,10 +54,3 @@ show\_yahoo\_news\_detail\_p.user.js
 * [show Yahoo! News detail page](https://github.com/raimon49/userscripts/raw/master/show_yahoo_news_detail_p.user.js)
 
 > ヤフーニュースのヘッドラインを表示した時に自動で記事全文へ移動するスクリプト
-
-minimum\_scroll.user.js
------------------------
-
-* [Minimum Scroll](https://github.com/raimon49/userscripts/raw/master/minimum_scroll.user.js)
-
-> Space, Shitf+Spaceのスクロール量を短くします
