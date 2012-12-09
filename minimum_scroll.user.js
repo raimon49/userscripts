@@ -5,6 +5,7 @@
 // @include     http*://*
 // @exclude     http://reader.livedoor.com/reader/
 // @grant       none
+// @author      raimon
 // @version     1.0.0
 // ==/UserScript==
 
