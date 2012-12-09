@@ -19,16 +19,16 @@ ldc\_rancor\_cool.user.js
 
 > livedoor クリップで非公開じゃなくても恥ずかしくなくするスクリプト
 
+![スクリーンショット](http://sangoukan.xrea.jp/cgi-bin/tDiary/images/20100303_1.jpg)
+
+ネタスクリプトでしたが[livedoor クリップのサービス終了](http://blog.livedoor.jp/staff_clip/archives/52265344.html)に伴い入れても何も起きなくなります。
+
 minimum\_scroll.user.js
 -----------------------
 
 * [Minimum Scroll](https://github.com/raimon49/userscripts/raw/master/minimum_scroll.user.js)
 
 > Space, Shitf+Spaceのスクロール量を短くします
-
-![スクリーンショット](http://sangoukan.xrea.jp/cgi-bin/tDiary/images/20100303_1.jpg)
-
-ネタスクリプトでしたが[livedoor クリップのサービス終了](http://blog.livedoor.jp/staff_clip/archives/52265344.html)に伴い入れても何も起きなくなります。
 
 read\_two\_ahead\_feed\_on\_ldr.user.js
 ---------------------------------------
