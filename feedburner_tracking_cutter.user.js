@@ -12,6 +12,11 @@
         return;
     }
 
+    if (window.top !== window.self) {
+        // iframe
+        return;
+    }
+
     var url = location.href;
     var pattern = '?utm_source';
 
