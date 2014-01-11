@@ -24,7 +24,7 @@
     if (pos >= 0) {
         var replacedUrl = url.substr(0, pos);
         if (history && history.replaceState) {
-            history.replaceState(null, document.title, replacedUrl)
+            history.replaceState(null, document.title, replacedUrl);
         } else {
             location.replace(replacedUrl);
         }
