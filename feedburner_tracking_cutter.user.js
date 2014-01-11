@@ -5,7 +5,7 @@
 // @include     http://*
 // @include     https://*
 // @author      raimon
-// @version     1.0.0
+// @version     1.1.0
 // ==/UserScript==
 (function (){
     if (!location.search) {
@@ -22,6 +22,11 @@
 
     var pos = url.indexOf(pattern);
     if (pos >= 0) {
-        location.replace(url.substr(0, pos));
+        var replacedUrl = url.substr(0, pos);
+        if (history && history.replaceState) {
+            history.replaceState(null, document.title, replacedUrl)
+        } else {
+            location.replace(replacedUrl);
+        }
     }
 })();
