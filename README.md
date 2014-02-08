@@ -54,3 +54,10 @@ show\_yahoo\_news\_detail\_p.user.js
 * [show Yahoo! News detail page](https://github.com/raimon49/userscripts/raw/master/show_yahoo_news_detail_p.user.js)
 
 > ヤフーニュースのヘッドラインを表示した時に自動で記事全文へ移動するスクリプト
+
+wikipedia\_redirect\_keyword.user.js
+------------------------------------
+
+* [Wikipedia(ja) redirect keyword](https://github.com/raimon49/userscripts/raw/master/wikipedia_redirect_keyword.user.js)
+
+> Wikipedia日本語ページで別のキーワードから転送されてた時はそのページをリロードするスクリプト
