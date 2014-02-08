@@ -17,12 +17,12 @@
     const RE_REDIRECTION = /（(.+)から転送）/,
           URL_BASE = (location.origin || (location.protocol + "//" + location.hostname)) + "/wiki/";
     var text = contentSub.textContent || contentSub.innerText,
-        mateched = text.match(RE_REDIRECTION);
-    if (!mateched) {
+        matched = text.match(RE_REDIRECTION);
+    if (!matched) {
         return;
     }
 
-    var originalKeyword = mateched[1],
+    var originalKeyword = matched[1],
         currentlyKeyword = firstHeader.textContent || firstHeader.innerText;
     if (currentlyKeyword !== originalKeyword) {
         location.href = URL_BASE + currentlyKeyword;
