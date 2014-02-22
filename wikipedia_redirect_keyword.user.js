@@ -4,6 +4,7 @@
 // @namespace   http://sangoukan.xrea.jp/
 // @include     http://ja.wikipedia.org/wiki/*
 // @include     https://ja.wikipedia.org/wiki/*
+// @grant       none
 // @author      raimon
 // @version     1.0.0
 // ==/UserScript==
