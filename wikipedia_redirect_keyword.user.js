@@ -8,7 +8,7 @@
 // @author      raimon
 // @version     1.0.0
 // ==/UserScript==
-(function (){
+(function() {
     var contentSub = document.getElementById("contentSub"),
         firstHeader = document.querySelector("#firstHeading span");
     if (!contentSub) {

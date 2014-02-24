@@ -6,7 +6,7 @@
 // @author      raimon
 // @version     1.0.0
 // ==/UserScript==
-(function (){
+(function() {
     var w = typeof unsafeWindow !== 'undefined' ? unsafeWindow : window;
 
     var KEY = 'S';

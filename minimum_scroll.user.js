@@ -9,7 +9,7 @@
 // @version     1.0.0
 // ==/UserScript==
 
-(function () {
+(function() {
     const SPACE_KEY_CODE = 32;
     const SCROLL_OFFSET = 50;
 

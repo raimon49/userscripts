@@ -6,7 +6,7 @@
 // @author      raimon
 // @version     1.0.1
 // ==/UserScript==
-(function () {
+(function() {
     var next = $x('//div[@id="detailHeadline"]/h3/a');
     if (next.length >= 1) {
         location.replace(next[0].href);
