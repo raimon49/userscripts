@@ -31,7 +31,7 @@
             e.preventDefault();
             e.stopPropagation();
             window.scrollBy(0, (e.shiftKey) ? -SCROLL_OFFSET : SCROLL_OFFSET);
-    };
+        };
 
     window.addEventListener("keypress", onSpaceKeyPress, false);
 })();
