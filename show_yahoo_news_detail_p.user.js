@@ -3,21 +3,15 @@
 // @namespace   http://sangoukan.xrea.jp/
 // @description ヤフーニュースのヘッドラインを表示した時に自動で記事全文へ移動するスクリプト
 // @include     http://dailynews.yahoo.co.jp/fc/*
+// @include     http://news.yahoo.co.jp/pickup/*
 // @author      raimon
-// @version     1.0.1
+// @version     1.1.0
 // ==/UserScript==
 (function() {
-    var next = $x('//div[@id="detailHeadline"]/h3/a');
-    if (next.length >= 1) {
-        location.replace(next[0].href);
-    }
+    var doc = document,
+        nextLink = doc.querySelector("#detailHeadline a") || doc.querySelector("a#link");
 
-    function $x(query) {
-        var results = document.evaluate(query, document, null, XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE, null);
-        for(var i=0, l=results.snapshotLength, r=[]; i<l; i++) {
-           r.push(results.snapshotItem(i));
-        }
-
-        return r;
+    if (nextLink) {
+        location.replace(nextLink.href);
     }
 })();
