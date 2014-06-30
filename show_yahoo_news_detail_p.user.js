@@ -5,11 +5,11 @@
 // @include     http://dailynews.yahoo.co.jp/fc/*
 // @include     http://news.yahoo.co.jp/pickup/*
 // @author      raimon
-// @version     1.1.0
+// @version     1.1.1
 // ==/UserScript==
 (function() {
     var doc = document,
-        nextLink = doc.querySelector("#detailHeadline a") || doc.querySelector("a#link");
+        nextLink = doc.querySelector("a.readAll");
 
     if (nextLink) {
         location.replace(nextLink.href);
