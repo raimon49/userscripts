@@ -5,13 +5,23 @@
 // @include     http://dailynews.yahoo.co.jp/fc/*
 // @include     http://news.yahoo.co.jp/pickup/*
 // @author      raimon
-// @version     1.1.1
+// @version     1.1.2
 // ==/UserScript==
 (function() {
-    var doc = document,
-        nextLink = doc.querySelector("a.readAll");
+    const SELECTOR_PATTERNS = [
+        "a.readAll",
+        "h2.newsTitle a#link",
+        "a.newsLink",
+    ];
 
-    if (nextLink) {
-        location.replace(nextLink.href);
-    }
+    var doc = document,
+        nextLink;
+    SELECTOR_PATTERNS.forEach(function(selector) {
+        nextLink = doc.querySelector(selector);
+
+        if (nextLink) {
+            location.replace(nextLink.href);
+        }
+    });
+
 })();
