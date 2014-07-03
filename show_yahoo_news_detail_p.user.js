@@ -5,13 +5,14 @@
 // @include     http://dailynews.yahoo.co.jp/fc/*
 // @include     http://news.yahoo.co.jp/pickup/*
 // @author      raimon
-// @version     1.1.2
+// @version     1.1.3
 // ==/UserScript==
 (function() {
     const SELECTOR_PATTERNS = [
         "a.readAll",
         "h2.newsTitle a#link",
         "a.newsLink",
+        "#detailHeadline h3 a",
     ];
 
     var doc = document,
