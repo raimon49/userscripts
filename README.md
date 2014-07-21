@@ -12,6 +12,15 @@ feedburner\_tracking\_cutter.user.js
 
 ほぼ上位互換となる[UrlCleaner](http://userscripts.org/scripts/show/70851)や[ParamCleaner](http://userscripts.org/scripts/show/100611)というスクリプトが存在するので、よほどマシンパワーの不足しているマシンでない限りは、これらの利用がお奨めです。
 
+ldr\_auto\_expand\_all\_rating.user.js
+--------------------------------------
+
+* [LDR Auto Expand All Rating](https://github.com/raimon49/userscripts/raw/master/ldr_auto_expand_all_rating.user.js)
+
+> LDRのページロード時に全てのレーティングフォルダを全て展開するスクリプト
+
+![スクリーンショット](http://sangoukan.xrea.jp/cgi-bin/tDiary/images/20140721_0.png)
+
 ldc\_rancor\_cool.user.js
 -------------------------
 
