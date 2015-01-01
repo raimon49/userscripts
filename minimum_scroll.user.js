@@ -5,8 +5,11 @@
 // @include     http*://*
 // @exclude     http://reader.livedoor.com/reader/
 // @grant       none
+// @downloadURL https://github.com/raimon49/userscripts/raw/master/minimum_scroll.user.js
+// @updateURL   https://github.com/raimon49/userscripts/raw/master/minimum_scroll.user.js
+// @noframes
 // @author      raimon
-// @version     1.0.0
+// @version     1.1.0
 // ==/UserScript==
 
 (function() {
