@@ -1,0 +1,16 @@
+{
+    "bitwise": true,
+    "curly": true,
+    "eqeqeq": true,
+    "forin": true,
+    "latedef": true,
+    "undef": true,
+
+    "boss": true,
+    "esnext": true,
+    "loopfunc": true,
+    "sub": true,
+
+    "browser": true,
+    "jquery": true
+}
