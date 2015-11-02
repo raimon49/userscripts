@@ -20,7 +20,7 @@
             "input",
             "button",
             "select",
-            "textarea",
+            "textarea"
         ],
         onSpaceKeyPress = function(e) {
             if (e.charCode !== SPACE_KEY_CODE) {

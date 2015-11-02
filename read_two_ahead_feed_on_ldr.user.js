@@ -12,7 +12,7 @@
 (function() {
     function contentEval(source) {
         if ("function" === typeof source) {
-            source = "(" + source + ")();"
+            source = "(" + source + ")();";
         }
 
         var script = document.createElement("script");

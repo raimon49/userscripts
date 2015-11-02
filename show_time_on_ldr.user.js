@@ -12,7 +12,7 @@
 (function() {
     function contentEval(source) {
         if ("function" === typeof source) {
-            source = "(" + source + ")();"
+            source = "(" + source + ")();";
         }
 
         var script = document.createElement("script");
@@ -45,7 +45,7 @@
             );
 
             return hms.join(":");
-        }
+        };
 
         Clock.prototype.showPassage = function() {
             var passage_time = parseInt((new Date().getTime() - this.start_time) / 1000);

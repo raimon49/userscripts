@@ -12,5 +12,7 @@
     "sub": true,
 
     "browser": true,
-    "jquery": true
+    "jquery": true,
+
+    "predef": ["unsafeWindow"]
 }
