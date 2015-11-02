@@ -36,7 +36,9 @@
             }
 
             var list = Ordered.list;
-            if (!list) return;
+            if (!list) {
+                return;
+            }
 
             var offset = list.indexOfStr(sid);
             var feed = list[offset+2];
@@ -44,10 +46,14 @@
         };
 
         var read_two_ahead_subs = function() {
-            if (State.requested) return;
+            if (State.requested) {
+                return;
+            }
 
             var feed = get_feed();
-            if (!feed) return;
+            if (!feed) {
+                return;
+            }
 
             State.requested = true;
             touch(State.now_reading, "onclose");

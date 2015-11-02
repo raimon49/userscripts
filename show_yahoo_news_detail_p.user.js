@@ -12,7 +12,7 @@
         "a.readAll",
         "h2.newsTitle a#link",
         "a.newsLink",
-        "#detailHeadline h3 a",
+        "#detailHeadline h3 a"
     ];
 
     var doc = document,
