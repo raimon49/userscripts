@@ -1,7 +1,7 @@
 userscripts
 ============
 
-[![Build Status](https://travis-ci.org/raimon49/userscripts.svg?branch=master)](https://travis-ci.org/raimon49/userscripts)
+[![Build Status](https://travis-ci.org/raimon49/userscripts.svg?branch=master)](https://travis-ci.org/raimon49/userscripts) [![devDependencies Status](https://david-dm.org/raimon49/userscripts/dev-status.svg)](https://david-dm.org/raimon49/userscripts#info=devDependencies&view=table)
 
 個人用に書き溜めていたユーザースクリプトです。FirefoxのGreasemonkeyでの動作を前提としていますが、Google Chromeなど他のウェブブラウザでも動作すると思います。
 
