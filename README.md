@@ -15,17 +15,6 @@ feedburner\_tracking\_cutter.user.js
 
 ほぼ上位互換となる[UrlCleaner](http://userscripts.org/scripts/show/70851)や[ParamCleaner](http://userscripts.org/scripts/show/100611)というスクリプトが存在するので、よほどマシンパワーの不足しているマシンでない限りは、これらの利用がお奨めです。
 
-ldc\_rancor\_cool.user.js
--------------------------
-
-* [LDC rancor cool](https://github.com/raimon49/userscripts/raw/master/ldc_rancor_cool.user.js)
-
-> livedoor クリップで非公開じゃなくても恥ずかしくなくするスクリプト
-
-![スクリーンショット](http://sangoukan.xrea.jp/cgi-bin/tDiary/images/20100303_1.jpg)
-
-ネタスクリプトでしたが[livedoor クリップのサービス終了](http://blog.livedoor.jp/staff_clip/archives/52265344.html)に伴い入れても何も起きなくなります。
-
 ldr\_auto\_expand\_all\_rating.user.js
 --------------------------------------
 
