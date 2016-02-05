@@ -3,11 +3,14 @@
 // @description フィードを1つ飛ばしで読み進めるためのキーを追加するスクリプト
 // @namespace   http://sangoukan.xrea.jp/
 // @include     http://reader.livedoor.com/reader/*
+// @include     https://reader.livedoor.com/reader/*
+// @include     http://reader.livedwango.com/reader/*
+// @include     https://reader.livedwango.com/reader/*
 // @grant       none
 // @downloadURL https://github.com/raimon49/userscripts/raw/master/read_two_ahead_feed_on_ldr.user.js
 // @updateURL   https://github.com/raimon49/userscripts/raw/master/read_two_ahead_feed_on_ldr.user.js
 // @author      raimon
-// @version     1.1.0
+// @version     1.2.0
 // ==/UserScript==
 (function() {
     function contentEval(source) {

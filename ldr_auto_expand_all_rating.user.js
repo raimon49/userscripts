@@ -3,11 +3,14 @@
 // @description LDRのページロード時に全てのレーティングフォルダを全て展開するスクリプト
 // @namespace   http://sangoukan.xrea.jp/
 // @include     http://reader.livedoor.com/reader/*
+// @include     https://reader.livedoor.com/reader/*
+// @include     http://reader.livedwango.com/reader/*
+// @include     https://reader.livedwango.com/reader/*
 // @grant       none
 // @downloadURL https://github.com/raimon49/userscripts/raw/master/ldr_auto_expand_all_rating.user.js
 // @updateURL   https://github.com/raimon49/userscripts/raw/master/ldr_auto_expand_all_rating.user.js
 // @author      raimon
-// @version     1.0.0
+// @version     1.1.0
 // ==/UserScript==
 (function() {
     function contentEval(source) {
