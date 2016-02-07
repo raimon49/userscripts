@@ -3,13 +3,16 @@
 // @description Space, Shitf+Spaceのスクロール量を短くします
 // @namespace   http://sangoukan.xrea.jp/
 // @include     http*://*
-// @exclude     http://reader.livedoor.com/reader/
+// @exclude     http://reader.livedoor.com/reader/*
+// @exclude     https://reader.livedoor.com/reader/*
+// @exclude     http://reader.livedwango.com/reader/*
+// @exclude     https://reader.livedwango.com/reader/*
 // @grant       none
 // @downloadURL https://github.com/raimon49/userscripts/raw/master/minimum_scroll.user.js
 // @updateURL   https://github.com/raimon49/userscripts/raw/master/minimum_scroll.user.js
 // @noframes
 // @author      raimon
-// @version     1.1.0
+// @version     1.2.0
 // ==/UserScript==
 
 (function() {
