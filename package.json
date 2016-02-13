@@ -7,7 +7,7 @@
   "devDependencies": {
     "jscs": "^2.5.0",
     "jshint": "^2.8.0",
-    "jshint-stylish": "2.0.0"
+    "jshint-stylish": "2.1.0"
   },
   "scripts": {
     "lint": "jscs *user.js && jshint --reporter node_modules/jshint-stylish *user.js",
