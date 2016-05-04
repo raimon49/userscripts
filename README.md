@@ -4,7 +4,7 @@ userscripts
 [![Build Status](https://travis-ci.org/raimon49/userscripts.svg?branch=master)](https://travis-ci.org/raimon49/userscripts)
 [![devDependencies Status](https://david-dm.org/raimon49/userscripts/dev-status.svg)](https://david-dm.org/raimon49/userscripts#info=devDependencies&view=table)
 
-個人用に書き溜めていたユーザースクリプトです。FirefoxのGreasemonkeyでの動作を前提としていますが、Google Chromeなど他のウェブブラウザでも動作すると思います。
+個人用に書き溜めていたユーザースクリプトです。FirefoxのGreasemonkeyでの動作を前提としていますが、[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)や[NinjaKit](http://os0x.hatenablog.com/entry/20100612/1276330696)といったGoogle Chrome, Safariなど他ウェブブラウザ用のGreasemonkey互換環境でも動作します。
 
 feedburner\_tracking\_cutter.user.js
 ----------------------------------
@@ -13,7 +13,7 @@ feedburner\_tracking\_cutter.user.js
 
 > FeedBurner経由でつく?utm\_sourceから始まるトラッキングパラメータをカットして再読み込みするユーザスクリプト
 
-ほぼ上位互換となる[UrlCleaner](http://userscripts.org/scripts/show/70851)や[ParamCleaner](http://userscripts.org/scripts/show/100611)というスクリプトが存在するので、よほどマシンパワーの不足しているマシンでない限りは、これらの利用がお奨めです。
+ほぼ上位互換となる[UrlCleaner](https://github.com/ussy/greasemonkey/blob/master/urlcleaner.user.js)や[ParamCleaner](https://github.com/azu/ParamCleaner)というスクリプトが存在するので、よほどマシンパワーの不足しているマシンでない限りは、これらの利用がお奨めです。
 
 ldr\_auto\_expand\_all\_rating.user.js
 --------------------------------------
