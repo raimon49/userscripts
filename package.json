@@ -5,7 +5,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "jscs": "^2.5.0",
+    "jscs": "^3.0.0",
     "jshint": "^2.8.0",
     "jshint-stylish": "2.1.0"
   },

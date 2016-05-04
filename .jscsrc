@@ -15,7 +15,6 @@
     "disallowMultipleLineBreaks": true,
     "requireLineFeedAtFileEnd": true,
     "requireSpacesInFunction": { "beforeOpeningCurlyBrace": true },
-    "verbose": true,
     "validateIndentation": 4,
     "validateParameterSeparator": ", "
 }
