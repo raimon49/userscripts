@@ -10,7 +10,7 @@
 // @downloadURL https://github.com/raimon49/userscripts/raw/master/show_yahoo_news_detail_p.user.js
 // @updateURL   https://github.com/raimon49/userscripts/raw/master/show_yahoo_news_detail_p.user.js
 // @author      raimon
-// @version     1.3.0
+// @version     1.4.0
 // ==/UserScript==
 (function() {
     const SELECTOR_PATTERNS = [
@@ -18,7 +18,8 @@
         "h2.newsTitle a#link",
         "a.newsLink",
         "#detailHeadline h3 a",
-        ".tpcNews_detailLink a"
+        ".tpcNews_detailLink a",
+        "p.pickupMain_detailLink > a"
     ];
 
     var doc = document,
