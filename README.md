@@ -4,7 +4,7 @@ userscripts
 [![Build Status](https://travis-ci.org/raimon49/userscripts.svg?branch=master)](https://travis-ci.org/raimon49/userscripts)
 [![devDependencies Status](https://david-dm.org/raimon49/userscripts/dev-status.svg)](https://david-dm.org/raimon49/userscripts?type=dev)
 
-個人用に書き溜めていたユーザースクリプトです。FirefoxのGreasemonkeyでの動作を前提としていますが、[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)や[NinjaKit](http://os0x.hatenablog.com/entry/20100612/1276330696)といったGoogle Chrome, Safariなど他ウェブブラウザ用のGreasemonkey互換環境でも動作します。
+個人用に書き溜めていたユーザースクリプトです。FirefoxのGreasemonkeyでの動作を前提としていますが、[Violentmonkey](https://addons.mozilla.org/ja/firefox/addon/violentmonkey/)/[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)/[NinjaKit](http://os0x.hatenablog.com/entry/20100612/1276330696)といったGoogle Chrome, Safariなど他ウェブブラウザ用のGreasemonkey互換環境でも動作します。
 
 feedburner\_tracking\_cutter.user.js
 ----------------------------------
