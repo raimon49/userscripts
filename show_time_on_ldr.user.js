@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        show time on LDR
 // @namespace   http://sangoukan.xrea.jp/
-// @description Tキーで中の人に現在時刻と経過時間を表示してもらうスクリプト
+// @description [deprecated] Tキーで中の人に現在時刻と経過時間を表示してもらうスクリプト
 // @include     http://reader.livedoor.com/reader/*
 // @include     https://reader.livedoor.com/reader/*
 // @include     http://reader.livedwango.com/reader/*
