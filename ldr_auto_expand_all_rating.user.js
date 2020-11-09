@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        LDR Auto Expand All Rating
-// @description LDRのページロード時に全てのレーティングフォルダを全て展開するスクリプト
+// @description [deprecated] LDRのページロード時に全てのレーティングフォルダを全て展開するスクリプト
 // @namespace   http://sangoukan.xrea.jp/
 // @include     http://reader.livedoor.com/reader/*
 // @include     https://reader.livedoor.com/reader/*
