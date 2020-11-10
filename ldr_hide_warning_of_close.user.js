@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        LDR Hide Warning Of Close
-// @description LDRサービス終了のお知らせを隠すスクリプト
+// @description [deprecated] LDRサービス終了のお知らせを隠すスクリプト
 // @namespace   http://sangoukan.xrea.jp/
 // @include     http://reader.livedoor.com/reader/*
 // @include     https://reader.livedoor.com/reader/*
