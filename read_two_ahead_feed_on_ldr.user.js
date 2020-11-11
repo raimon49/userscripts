@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        read two ahead feed on LDR
-// @description フィードを1つ飛ばしで読み進めるためのキーを追加するスクリプト
+// @description [deprecated] フィードを1つ飛ばしで読み進めるためのキーを追加するスクリプト
 // @namespace   http://sangoukan.xrea.jp/
 // @include     http://reader.livedoor.com/reader/*
 // @include     https://reader.livedoor.com/reader/*
