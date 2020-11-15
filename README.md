@@ -15,8 +15,8 @@ feedburner\_tracking\_cutter.user.js
 
 ほぼ上位互換となる[UrlCleaner](https://github.com/ussy/greasemonkey/blob/master/urlcleaner.user.js)や[ParamCleaner](https://github.com/azu/ParamCleaner)というスクリプトが存在するので、よほどマシンパワーの不足しているマシンでない限りは、これらの利用がお奨めです。
 
-ldr\_auto\_expand\_all\_rating.user.js
---------------------------------------
+[deprecated] ldr\_auto\_expand\_all\_rating.user.js
+---------------------------------------------------
 
 * [LDR Auto Expand All Rating](https://github.com/raimon49/userscripts/raw/master/ldr_auto_expand_all_rating.user.js)
 
@@ -31,8 +31,8 @@ minimum\_scroll.user.js
 
 > Space, Shitf+Spaceのスクロール量を短くします
 
-read\_two\_ahead\_feed\_on\_ldr.user.js
----------------------------------------
+[deprecated] read\_two\_ahead\_feed\_on\_ldr.user.js
+----------------------------------------------------
 
 * [read two ahead feed on LDR](https://github.com/raimon49/userscripts/raw/master/read_two_ahead_feed_on_ldr.user.js)
 
@@ -40,8 +40,8 @@ read\_two\_ahead\_feed\_on\_ldr.user.js
 
 LDR閲覧中にキーバインド「Shift + S」を追加します。押すと「次の次」のフィードへフォーカスします。
 
-show\_time\_on\_ldr.user.js
----------------------------
+[deprecated] show\_time\_on\_ldr.user.js
+----------------------------------------
 
 * [show time on LDR](https://github.com/raimon49/userscripts/raw/master/show_time_on_ldr.user.js)
 
