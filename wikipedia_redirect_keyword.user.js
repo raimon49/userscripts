@@ -16,7 +16,7 @@
     }
 
     const RE_REDIRECTION = /（(.+)から転送）/,
-          URL_BASE = (location.origin || (location.protocol + "//" + location.hostname)) + "/wiki/";
+        URL_BASE = (location.origin || (location.protocol + "//" + location.hostname)) + "/wiki/";
     var text = contentSub.textContent || contentSub.innerText,
         matched = text.match(RE_REDIRECTION);
     if (!matched) {
