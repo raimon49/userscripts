@@ -2,8 +2,7 @@
   "name": "userscripts",
   "version": "1.0.0",
   "description": "My UserScript",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "jscs": "^3.0.0",
     "jshint": "^2.8.0",
