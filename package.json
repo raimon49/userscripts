@@ -4,12 +4,10 @@
   "description": "My UserScript",
   "dependencies": {},
   "devDependencies": {
-    "jscs": "^3.0.0",
-    "jshint": "^2.8.0",
-    "jshint-stylish": "^2.1.0"
+    "eslint": "^7.14.0"
   },
   "scripts": {
-    "lint": "jscs *user.js && jshint --reporter node_modules/jshint-stylish *user.js",
+    "lint": "eslint *user.js",
     "test": "npm run lint"
   },
   "repository": {
