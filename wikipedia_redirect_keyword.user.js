@@ -2,11 +2,11 @@
 // @name        Wikipedia(ja) redirect keyword
 // @description Wikipedia日本語ページで別のキーワードから転送されてた時はそのページをリロードするスクリプト
 // @namespace   http://sangoukan.xrea.jp/
-// @include     http://ja.wikipedia.org/wiki/*
-// @include     https://ja.wikipedia.org/wiki/*
+// @match       http://ja.wikipedia.org/wiki/*
+// @match       https://ja.wikipedia.org/wiki/*
 // @grant       none
 // @author      raimon
-// @version     1.0.0
+// @version     1.1.0
 // ==/UserScript==
 (function() {
     var contentSub = document.getElementById("contentSub"),
