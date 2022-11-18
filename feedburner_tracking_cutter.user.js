@@ -2,10 +2,10 @@
 // @name        FeedBurner Tracking Cutter
 // @description FeedBurner経由でつく?utm_sourceから始まるトラッキングパラメータをカットして再読み込みするユーザスクリプト
 // @namespace   http://sangoukan.xrea.jp/
-// @include     http://*
-// @include     https://*
+// @match       http://*
+// @match       https://*
 // @author      raimon
-// @version     1.1.0
+// @version     1.2.0
 // ==/UserScript==
 (function() {
     if (!location.search) {
