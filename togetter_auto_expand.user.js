@@ -11,8 +11,10 @@
 // @version     1.0.0
 // ==/UserScript==
 (() => {
-    const moreTweet = document.querySelector("div.more_tweet_box > button");
-    if (moreTweet && typeof moreTweet.onclick === "function") {
-        moreTweet.onclick();
-    }
+    setTimeout(() => {
+        const moreTweet = document.querySelector("div.more_tweet_box > button");
+        if (moreTweet && typeof moreTweet.onclick === "function") {
+            moreTweet.onclick();
+        }
+    }, 2000);
 })();
