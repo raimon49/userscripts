@@ -11,10 +11,11 @@
 // @version     1.0.0
 // ==/UserScript==
 (() => {
-    setTimeout(() => {
+    const t = setInterval(() => {
         const moreTweet = document.querySelector("div.more_tweet_box > button");
         if (moreTweet && typeof moreTweet.onclick === "function") {
             moreTweet.onclick();
+            clearInterval(t);
         }
-    }, 2000);
+    }, 1000);
 })();
