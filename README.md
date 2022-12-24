@@ -64,6 +64,15 @@ togetter\_auto\_expand.user.js
 
 ![スクリーンショット](https://user-images.githubusercontent.com/221802/204266112-c4d563e4-783b-4093-8e4a-99b5adb3170b.png)
 
+twitter\_web\_hide\_analytics\_numbers.user.js
+----------------------------------------------
+
+* [Twitter web hide analytics numbers](https://github.com/raimon49/userscripts/raw/master/twitter_web_hide_analytics_numbers.user.js)
+
+> Twitter web上で表示される表示回数らしき数字を隠す
+
+![スクリーンショット](https://user-images.githubusercontent.com/221802/209418905-96580a43-d899-420a-b6c9-35ea97afcac1.png)
+
 wikipedia\_redirect\_keyword.user.js
 ------------------------------------
 
