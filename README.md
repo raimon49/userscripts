@@ -3,7 +3,7 @@ userscripts
 
 [![lint](https://github.com/raimon49/userscripts/actions/workflows/node-test.yml/badge.svg)](https://github.com/raimon49/userscripts/actions/workflows/node-test.yml)
 
-個人用に書き溜めていたユーザースクリプトです。FirefoxのGreasemonkeyでの動作を前提としていますが、[Violentmonkey](https://addons.mozilla.org/ja/firefox/addon/violentmonkey/)/[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)/[NinjaKit](http://os0x.hatenablog.com/entry/20100612/1276330696)といったGoogle Chrome, Safariなど他ウェブブラウザ用のGreasemonkey互換環境でも動作します。
+個人用に書き溜めていたユーザースクリプトです。Firefox + Greasemonkeyでの動作を前提としていますが、[Violentmonkey](https://violentmonkey.github.io)/[Tampermonkey](https://www.tampermonkey.net)/[NinjaKit](http://os0x.hatenablog.com/entry/20100612/1276330696)といったGoogle Chrome, Safariなど他ウェブブラウザ用のGreasemonkey互換環境でも動作します。
 
 feedburner\_tracking\_cutter.user.js
 ----------------------------------
