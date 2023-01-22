@@ -62,6 +62,8 @@ togetter\_auto\_expand.user.js
 
 > Togetterページの「この続きを読む」自動でクリック
 
+※[こういう別解でも同じことができる](https://looxu.blogspot.com/2022/11/refactor-togetter-auto-expand.html)そうです。
+
 ![スクリーンショット](https://user-images.githubusercontent.com/221802/204266112-c4d563e4-783b-4093-8e4a-99b5adb3170b.png)
 
 twitter\_web\_hide\_analytics\_numbers.user.js
