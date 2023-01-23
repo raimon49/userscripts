@@ -75,7 +75,7 @@ twitter\_web\_hide\_analytics\_numbers.user.js
 
 ※Twitter PC Web側のUI刷新タイミングによっては上手く動作しない場合があります。
 
-![スクリーンショット](![image](https://user-images.githubusercontent.com/221802/214020996-16521737-6a1e-4d1c-977d-156141075147.png))
+![スクリーンショット](https://user-images.githubusercontent.com/221802/214020996-16521737-6a1e-4d1c-977d-156141075147.png)
 
 wikipedia\_redirect\_keyword.user.js
 ------------------------------------
