@@ -8,15 +8,14 @@
 // @updateURL   https://github.com/raimon49/userscripts/raw/master/twitter_web_hide_analytics_numbers.user.js
 // @noframes
 // @author      raimon
-// @version     1.0.3
+// @version     1.0.4
 // ==/UserScript==
 (() => {
     const hideAnalyticsNumbersStyle = document.createElement("style");
     hideAnalyticsNumbersStyle.innerHTML = `
         a[href$="analytics"] span[data-testid="app-text-transition-container"] >
         span,
-        article[data-testid="tweet"] div[dir="ltr"] span[aria-hidden="true"] +
-        span span[data-testid="app-text-transition-container"] > span
+        article[data-testid="tweet"] div[dir="ltr"] span span[data-testid="app-text-transition-container"] > span
         {
             display: none;
         }
