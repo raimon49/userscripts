@@ -3,6 +3,7 @@
 // @description Twitter web上で表示される表示回数らしき数字を隠す
 // @namespace   http://sangoukan.xrea.jp/
 // @match       https://twitter.com/*
+// @match       https://x.com/*
 // @grant       none
 // @downloadURL https://github.com/raimon49/userscripts/raw/master/twitter_web_hide_analytics_numbers.user.js
 // @updateURL   https://github.com/raimon49/userscripts/raw/master/twitter_web_hide_analytics_numbers.user.js
