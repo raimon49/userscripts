@@ -25,6 +25,7 @@
             document.title = `${stockTitle}｜${selectedTab}｜${currentTitle}`;
             clearInterval(timerID);
         }
-    },
-        timerID = setInterval(main, 200/* ms */);
+    };
+
+    const timerID = setInterval(main, 200/* ms */);
 })();
