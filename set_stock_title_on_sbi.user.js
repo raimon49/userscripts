@@ -8,7 +8,7 @@
 // @updateURL   https://github.com/raimon49/userscripts/raw/master/set_stock_title_on_sbi.user.js
 // @noframes
 // @author      raimon
-// @version     0.1.1
+// @version     0.1.2
 // ==/UserScript==
 (() => {
     const main = () => {
@@ -23,8 +23,8 @@
 
         if (currentTitle === "国内株式｜SBI証券" && stockTitle && selectedTab) {
             document.title = `${stockTitle}｜${selectedTab}｜${currentTitle}`;
+            clearInterval(timerID);
         }
-    };
-
-    setTimeout(main, 1500/* ms */);
+    },
+        timerID = setInterval(main, 200/* ms */);
 })();
