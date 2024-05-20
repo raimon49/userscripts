@@ -17,8 +17,8 @@
     }
 
     const stockTitle = document.querySelector("h3:has(span.fm01)").textContent,
-          selectedTab = document.querySelector("div.tab02T td.act").textContent,
-          currentTitle= document.title;
+        selectedTab = document.querySelector("div.tab02T td.act").textContent,
+        currentTitle= document.title;
 
     if (currentTitle === "国内株式｜SBI証券" && stockTitle && selectedTab) {
         document.title = `${stockTitle}｜${selectedTab}｜${currentTitle}`;
