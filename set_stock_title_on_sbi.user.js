@@ -2,7 +2,8 @@
 // @name        Set stock title on SBI
 // @description SBI証券の国内株式ページで表示中の銘柄をタイトルにセットする
 // @namespace   http://sangoukan.xrea.jp/
-// @match       https://site1.sbisec.co.jp/ETGate/*
+// @match       https://*.sbisec.co.jp/ETGate/*
+// @match       https://sbi.ifis.co.jp/index.php*
 // @grant       none
 // @downloadURL https://github.com/raimon49/userscripts/raw/master/set_stock_title_on_sbi.user.js
 // @updateURL   https://github.com/raimon49/userscripts/raw/master/set_stock_title_on_sbi.user.js
