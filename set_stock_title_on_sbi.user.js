@@ -9,7 +9,7 @@
 // @updateURL   https://github.com/raimon49/userscripts/raw/master/set_stock_title_on_sbi.user.js
 // @noframes
 // @author      raimon
-// @version     0.1.5
+// @version     1.0.0
 // ==/UserScript==
 (() => {
     const main = () => {
@@ -17,6 +17,7 @@
             DEFAULT_PAGE_TITLE = "国内株式｜SBI証券",
             shownPage = document.querySelector("h2.head01").textContent;
         if (!shownPage || shownPage !== DEFAULT_PAGE_HEADER) {
+            clearInterval(timerID);
             return;
         }
 
