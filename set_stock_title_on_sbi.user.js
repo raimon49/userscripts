@@ -17,6 +17,7 @@
             DEFAULT_PAGE_TITLE = "国内株式｜SBI証券",
             shownPage = document.querySelector("h2.head01").textContent;
         if (!shownPage || shownPage !== DEFAULT_PAGE_HEADER) {
+            clearInterval(timerID);
             return;
         }
 
