@@ -9,7 +9,7 @@
 // @updateURL   https://github.com/raimon49/userscripts/raw/master/set_stock_title_on_sbi.user.js
 // @noframes
 // @author      raimon
-// @version     0.1.5
+// @version     1.0.0
 // ==/UserScript==
 (() => {
     const main = () => {
