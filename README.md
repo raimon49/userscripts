@@ -5,6 +5,15 @@ userscripts
 
 個人用に書き溜めていたユーザースクリプトです。Firefox + Greasemonkeyでの動作を前提としていますが、[Violentmonkey](https://violentmonkey.github.io)/[Tampermonkey](https://www.tampermonkey.net)/[NinjaKit](http://os0x.hatenablog.com/entry/20100612/1276330696)といったGoogle Chrome, Safariなど他ウェブブラウザ用のGreasemonkey互換環境でも動作します。
 
+set\_stock\_title\_on\_sbi.user.js
+----------------------------------
+
+> SBI証券の国内株式ページで表示中の銘柄をタイトルにセットする
+
+[SBI証券のWebサイト](https://www.sbisec.co.jp)で国内株式の株価やチャートを閲覧している時に、以下スクリーンショットのように銘柄名をページタイトルに設定します。
+
+![スクリーンショット](https://github.com/raimon49/userscripts/assets/221802/1bb86c35-97a4-4183-bd71-491be66a2afd)
+
 feedburner\_tracking\_cutter.user.js
 ----------------------------------
 
