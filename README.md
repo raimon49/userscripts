@@ -8,6 +8,8 @@ userscripts
 set\_stock\_title\_on\_sbi.user.js
 ----------------------------------
 
+* [Set stock title on SBI](https://github.com/raimon49/userscripts/raw/master/set_stock_title_on_sbi.user.js)
+
 > SBI証券の国内株式ページで表示中の銘柄をタイトルにセットする
 
 [SBI証券のWebサイト](https://www.sbisec.co.jp)で国内株式の株価やチャートを閲覧している時に、以下スクリーンショットのように銘柄名をページタイトルに設定します。
