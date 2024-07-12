@@ -12,7 +12,7 @@ set\_stock\_title\_on\_sbi.user.js
 
 > SBI証券の国内株式ページで表示中の銘柄をタイトルにセットする
 
-[SBI証券のWebサイト](https://www.sbisec.co.jp)で国内株式の四季報情報やチャートを閲覧している時に、以下スクリーンショットのように銘柄名をページタイトルに設定します。
+[SBI証券のWebサイト](https://www.sbisec.co.jp)で国内株式の特定銘柄やETFの四季報情報やチャートを閲覧している時に、以下スクリーンショットのように銘柄名をページタイトルに設定します。
 
 ![スクリーンショット](https://github.com/raimon49/userscripts/assets/221802/1bb86c35-97a4-4183-bd71-491be66a2afd)
 
