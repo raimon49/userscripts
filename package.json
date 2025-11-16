@@ -4,7 +4,7 @@
   "description": "My UserScript",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^7.14.0"
+    "eslint": "^9.39.1"
   },
   "scripts": {
     "lint": "eslint *user.js",
