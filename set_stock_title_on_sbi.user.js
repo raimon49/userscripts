@@ -9,20 +9,20 @@
 // @updateURL   https://github.com/raimon49/userscripts/raw/master/set_stock_title_on_sbi.user.js
 // @noframes
 // @author      raimon
-// @version     1.0.0
+// @version     1.1.0
 // ==/UserScript==
 (() => {
     const main = () => {
         const DEFAULT_PAGE_HEADER = "国内株式",
             DEFAULT_PAGE_TITLE = "国内株式｜SBI証券",
-            shownPage = document.querySelector("h2.head01").textContent;
+            shownPage = document.querySelector("a[aria-current=true]").textContent;
         if (!shownPage || shownPage !== DEFAULT_PAGE_HEADER) {
             clearInterval(timerID);
             return;
         }
 
-        const stockTitle = document.querySelector("h3:has(span.fm01)").textContent,
-            selectedTab = document.querySelector("div.tab02T td.act").textContent,
+        const stockTitle = document.querySelector("div.stock-title h1 span").textContent,
+            selectedTab = document.querySelector("a[aria-selected=true]").textContent,
             currentTitle= document.title;
 
         if (currentTitle === DEFAULT_PAGE_TITLE && stockTitle && selectedTab) {
